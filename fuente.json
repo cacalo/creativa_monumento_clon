@@ -1,0 +1,850 @@
+{
+  "nodes": [
+      {
+          "Nodo": 0,
+          "idNodo": 0,
+          "nameNodo": "",
+          "tipoNodo": "Fichas Asociadas",
+          "pathFichas": "",
+          "filenameDestino": "imagenes_creativa\/fichas_asociadas.png",
+          "dimensiones1": 40,
+          "dimensiones2": 60,
+          "color": "#d65db1"
+      },
+      {
+          "Nodo": 1,
+          "idNodo": 1,
+          "nameNodo": "",
+          "tipoNodo": "Recursos",
+          "pathFichas": "",
+          "filenameDestino": "imagenes_creativa\/recursos.png",
+          "dimensiones1": 40,
+          "dimensiones2": 60,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 2,
+          "idNodo": 2,
+          "nameNodo": "",
+          "tipoNodo": "Ir a Men\u00fa Principal",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/red\/fichas_creativa.html",
+          "filenameDestino": "imagenes_creativa\/creativa.png",
+          "dimensiones1": 30,
+          "dimensiones2": 35,
+          "color": "#605F63"
+      },
+      {
+          "Nodo": 3,
+          "idNodo": 3,
+          "nameNodo": "",
+          "tipoNodo": "Comentarios",
+          "pathFichas": "https:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/?q=comentarios_desde_nodos\/98",
+          "filenameDestino": "imagenes_creativa\/comentarios.png",
+          "dimensiones1": 40,
+          "dimensiones2": 60,
+          "color": "#ffc75f"
+      },
+      {
+          "Nodo": 4,
+          "idNodo": "98",
+          "nameNodo": "MiRA: Microscop\u00eda y Realidad Aumentada, la aventura de descubrir  y comprender lo que no se ve",
+          "tipoNodo": "Informaci\u00f3n de la ficha Obra abierta: ",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/?q=fichas-vista-panel-central\/98",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/MiRA 1.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 60,
+          "color": "#dbd747"
+      },
+      {
+          "Nodo": 5,
+          "idNodo": "97",
+          "nameNodo": "Dispositivo Hipermedial Din\u00e1mico CREATIVA MONUMENTO",
+          "tipoNodo": "Obra abierta: ",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/red\/fichas_individuales_creativa.php?ficha=97",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/creativa_0_0.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#dbd747"
+      },
+      {
+          "Nodo": 6,
+          "idNodo": "91",
+          "nameNodo": "Monumento Hist\u00f3rico Nacional a la Bandera",
+          "tipoNodo": "Obra abierta: ",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/red\/fichas_individuales_creativa.php?ficha=91",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/monumento_0.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#dbd747"
+      },
+      {
+          "Nodo": 7,
+          "idNodo": "18",
+          "nameNodo": "Dolores Candelaria Mora Vega de Hern\u00e1ndez (Lola Mora)",
+          "tipoNodo": "Constructor de ciudadan\u00eda: ",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/red\/fichas_individuales_creativa.php?ficha=18",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/lola f.png",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#e94343"
+      },
+      {
+          "Nodo": 8,
+          "idNodo": "24",
+          "nameNodo": "\u00c1ngel Francisco Guido",
+          "tipoNodo": "Constructor de ciudadan\u00eda: ",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/red\/fichas_individuales_creativa.php?ficha=24",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/guido_maqueta.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#e94343"
+      },
+      {
+          "Nodo": 9,
+          "idNodo": "23",
+          "nameNodo": "Jos\u00e9 Fioravanti",
+          "tipoNodo": "Constructor de ciudadan\u00eda: ",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/red\/fichas_individuales_creativa.php?ficha=23",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/Jose Fioravanti f.png",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#e94343"
+      },
+      {
+          "Nodo": 10,
+          "idNodo": "21",
+          "nameNodo": "Alejandro Gabriel Bustillo Madero",
+          "tipoNodo": "Constructor de ciudadan\u00eda: ",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/red\/fichas_individuales_creativa.php?ficha=21",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/bustillo.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#e94343"
+      },
+      {
+          "Nodo": 11,
+          "idNodo": "100",
+          "nameNodo": "Un barco monumental",
+          "tipoNodo": "Itinerario creativo: ",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/red\/fichas_individuales_creativa.php?ficha=100",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/monumento RA.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#555fd3"
+      },
+      {
+          "Nodo": 12,
+          "idNodo": "117",
+          "nameNodo": "Cambio Clim\u00e1tico y deterioro del patrimonio material",
+          "tipoNodo": "Itinerario creativo: ",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/red\/fichas_individuales_creativa.php?ficha=117",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/cambioclimatico.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#555fd3"
+      },
+      {
+          "Nodo": 13,
+          "idNodo": "57",
+          "nameNodo": "Promoviendo ciudadan\u00eda: una propuesta de programaci\u00f3n con Scratch",
+          "tipoNodo": "Itinerario creativo: ",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/red\/fichas_individuales_creativa.php?ficha=57",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/ju31_0.png",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#555fd3"
+      },
+      {
+          "Nodo": 14,
+          "idNodo": "",
+          "nameNodo": "P\u00e1gina Institucional IRICE",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/www.irice-conicet.gov.ar:8080\/portal",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/f47fb042a3d5277c8d435c07893cd0b.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 15,
+          "idNodo": "",
+          "nameNodo": "P\u00e1gina Institucional IFIR",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/www.ifir-conicet.gov.ar",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/cd5d1e320f253adc6b33871ec807ed1.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 16,
+          "idNodo": "",
+          "nameNodo": "Video Institucional IRICE\u00b7",
+          "tipoNodo": "Recurso",
+          "pathFichas": "https:\/\/www.youtube.com\/embed\/aivVCU_f_4I",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/aivVCU_f_4I.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 17,
+          "idNodo": "",
+          "nameNodo": "Descripci\u00f3n del Proyecto MiRA",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/Proyecto MiRA_0.pdf",
+          "filenameDestino": "imagenes_creativa\/pdf.png",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 18,
+          "idNodo": "",
+          "nameNodo": "Descripci\u00f3n del Microscopio Electr\u00f3nico de Barrido CCT-Rosario",
+          "tipoNodo": "Recurso",
+          "pathFichas": "https:\/\/www.rosario-conicet.gov.ar\/equipamiento\/microscopioelectronicodebarrido",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/751e4d0a1789cbd65c987891253e86e.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 19,
+          "idNodo": "",
+          "nameNodo": "Da\u00f1o en travertino por derrame yerba mate",
+          "tipoNodo": "Recurso",
+          "pathFichas": "https:\/\/www.youtube.com\/embed\/jLpkXdA3MUA",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/jLpkXdA3MUA.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 20,
+          "idNodo": "",
+          "nameNodo": "Da\u00f1o en bronce producido por l\u00edquido corrector",
+          "tipoNodo": "Recurso",
+          "pathFichas": "https:\/\/www.youtube.com\/embed\/5i5DXTv1_EY",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/5i5DXTv1_EY.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 21,
+          "idNodo": "",
+          "nameNodo": "Lola Mora: artista y cient\u00edfica",
+          "tipoNodo": "Recurso",
+          "pathFichas": "https:\/\/www.youtube.com\/embed\/nKcvjNyAAWA",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/nKcvjNyAAWA.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 22,
+          "idNodo": "",
+          "nameNodo": "Acerca de qu\u00e9 es la Realidad Aumentada",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/puntodeencuentro.utn.edu.ar\/?page_id=366",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/f8b5a58869cd53649d0ce33adb333ea.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 23,
+          "idNodo": "",
+          "nameNodo": "Preguntas frecuentes sobre el dispositivo comunicacional MiRA",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/Pregunas frecuentes MiRA.pdf",
+          "filenameDestino": "imagenes_creativa\/pdf.png",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 24,
+          "idNodo": "",
+          "nameNodo": "Presentaci\u00f3n MiRA en diapositivas",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/Congreso AAHD_1.pdf",
+          "filenameDestino": "imagenes_creativa\/pdf.png",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 25,
+          "idNodo": "",
+          "nameNodo": "MiRA en la Sala de Banderas del Monumento",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/FotoseditadasIriceMonumento1.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/FotoseditadasIriceMonumento1.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 26,
+          "idNodo": "",
+          "nameNodo": "MiRA en el Monumento a la Bandera",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/FotoseditadasIriceMonumento6.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/FotoseditadasIriceMonumento6.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 27,
+          "idNodo": "",
+          "nameNodo": "MiRA en la Sala de Honor a las Banderas",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/FotoseditadasIriceMonumento10.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/FotoseditadasIriceMonumento10.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 28,
+          "idNodo": "",
+          "nameNodo": "Presentaci\u00f3n oficial de MiRA en el Monumento",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/reunionMiraPresentacion4.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/reunionMiraPresentacion4.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 29,
+          "idNodo": "",
+          "nameNodo": "Dra. Patricia San Mart\u00edn, directora del proyecto ",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/reunionMiraPresentacion5.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/reunionMiraPresentacion5.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 30,
+          "idNodo": "",
+          "nameNodo": "Autoridades del Monumento y del IRICE, miembros del grupo de trabajo",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/Presentacion oficial autoidades y miembros.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/Presentacion oficial autoidades y miembros.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 31,
+          "idNodo": "",
+          "nameNodo": "Equipo Proyecto MiRA",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/reunionMiraPresentacion10.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/reunionMiraPresentacion10.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 32,
+          "idNodo": "",
+          "nameNodo": "MiRA en la Especializaci\u00f3n Docente en Ciencias de la Computacion, Escuela Normal N\u00b036",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/3.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/3.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 33,
+          "idNodo": "",
+          "nameNodo": "Acerca de MiRA en la Especializaci\u00f3n en Ciencias de la Computaci\u00f3n para maestros de primaria, Esc. Normal N\u00b0 36",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/5.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/5.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 34,
+          "idNodo": "",
+          "nameNodo": "Experiencia con MiRA en la Formacion Docente, Escuela Normal N\u00b0 36",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/6.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/6.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 35,
+          "idNodo": "",
+          "nameNodo": "MiRA en la comunidad cient\u00edfica del CCT-Rosario",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/edicioniricefindea\u00f1o17.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/edicioniricefindea\u00f1o17.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 36,
+          "idNodo": "",
+          "nameNodo": "Acercar a la propuesta MiRA en el Complejo Cultural Atlas",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/7.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/7.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 37,
+          "idNodo": "",
+          "nameNodo": "Descubriendo un barco monumental",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/DSC_0284.JPG",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/DSC_0284.JPG",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 38,
+          "idNodo": "",
+          "nameNodo": "MiRA en el Colegio Santisimo Rosario",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/eventocolegio4.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/eventocolegio4.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 39,
+          "idNodo": "",
+          "nameNodo": "MiRA con docentes del Colegio Santisimo Rosario",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/eventocolegio7.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/eventocolegio7.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 40,
+          "idNodo": "",
+          "nameNodo": "MiRA en el programa Los cient\u00edficos vuelven a la Escuela",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/eventocolegio5.jpg",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/eventocolegio5.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 41,
+          "idNodo": "",
+          "nameNodo": "MiRA en la Escuela  N\u00b0 436 Juan Mantovani",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/DSC_6718.JPG",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/DSC_6718.JPG",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 42,
+          "idNodo": "",
+          "nameNodo": "Descubriendo MiRA en Creativa Monumento, Escuela N\u00b0 436",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/DSC_6820.JPG",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/DSC_6820.JPG",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 43,
+          "idNodo": "",
+          "nameNodo": "Docentes con MiRA en la Escuela N\u00b0 436 Juan Mantovani",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/DSC_6796.JPG",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/DSC_6796.JPG",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 44,
+          "idNodo": "",
+          "nameNodo": "MiiRA y los j\u00f3venes de la Escuela Mantovani",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/DSC_6707.JPG",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/DSC_6707.JPG",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 45,
+          "idNodo": "",
+          "nameNodo": "Cuidemos lo que es de todos",
+          "tipoNodo": "Recurso",
+          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/sites\/default\/files\/DSC_6762.JPG",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/DSC_6762.JPG",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 46,
+          "idNodo": "",
+          "nameNodo": "Experiencia de MiRA en el Complejo Cultural Atlas",
+          "tipoNodo": "Recurso",
+          "pathFichas": "https:\/\/www.youtube.com\/embed\/mlm2gOMTMDY",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/mlm2gOMTMDY.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 47,
+          "idNodo": "",
+          "nameNodo": "Entrevistas en distintos \u00e1mbitos sobre la experiencia MiRA",
+          "tipoNodo": "Recurso",
+          "pathFichas": "https:\/\/www.youtube.com\/embed\/d4NeURGhPd4",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/d4NeURGhPd4.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 48,
+          "idNodo": "",
+          "nameNodo": "Gaseosa Cola sobre el travertino del Monumento Hist\u00f3rico Nacional a la Bandera",
+          "tipoNodo": "Recurso",
+          "pathFichas": "https:\/\/www.youtube.com\/embed\/YNcxc51K5jo",
+          "filenameDestino": "fichasCreativa\/98\/imagenes\/YNcxc51K5jo.jpg",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      },
+      {
+          "Nodo": 49,
+          "idNodo": "",
+          "nameNodo": "Art\u00edculo cient\u00edfico sobre el proyecto MiRA",
+          "tipoNodo": "Recurso",
+          "pathFichas": "https:\/\/www.ipn.mx\/assets\/files\/innovacion\/docs\/Innovacion-Educativa-80\/MiRA-Una-esperiencia-de-comunicacion.pdf",
+          "filenameDestino": "imagenes_creativa\/pdf.png",
+          "dimensiones1": 40,
+          "dimensiones2": 45,
+          "color": "#64b765"
+      }
+  ],
+  "links": [
+      {
+          "source": 4,
+          "target": 0,
+          "value": 230,
+          "color": "#d65db1"
+      },
+      {
+          "source": 4,
+          "target": 1,
+          "value": 230,
+          "color": "#64b765"
+      },
+      {
+          "source": 4,
+          "target": 2,
+          "value": 230,
+          "color": "#605F63"
+      },
+      {
+          "source": 4,
+          "target": 3,
+          "value": 230,
+          "color": "#ffc75f"
+      },
+      {
+          "source": 0,
+          "target": 5,
+          "value": 190,
+          "color": "#dbd747"
+      },
+      {
+          "source": 0,
+          "target": 6,
+          "value": 100,
+          "color": "#dbd747"
+      },
+      {
+          "source": 0,
+          "target": 7,
+          "value": 190,
+          "color": "#e94343"
+      },
+      {
+          "source": 0,
+          "target": 8,
+          "value": 100,
+          "color": "#e94343"
+      },
+      {
+          "source": 0,
+          "target": 9,
+          "value": 190,
+          "color": "#e94343"
+      },
+      {
+          "source": 0,
+          "target": 10,
+          "value": 100,
+          "color": "#e94343"
+      },
+      {
+          "source": 0,
+          "target": 11,
+          "value": 190,
+          "color": "#555fd3"
+      },
+      {
+          "source": 0,
+          "target": 12,
+          "value": 100,
+          "color": "#555fd3"
+      },
+      {
+          "source": 0,
+          "target": 13,
+          "value": 190,
+          "color": "#555fd3"
+      },
+      {
+          "source": 1,
+          "target": 14,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 15,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 16,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 17,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 18,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 19,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 20,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 21,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 22,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 23,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 24,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 25,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 26,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 27,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 28,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 29,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 30,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 31,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 32,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 33,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 34,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 35,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 36,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 37,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 38,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 39,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 40,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 41,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 42,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 43,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 44,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 45,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 46,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 47,
+          "value": 190,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 48,
+          "value": 100,
+          "color": "#64b765"
+      },
+      {
+          "source": 1,
+          "target": 49,
+          "value": 190,
+          "color": "#64b765"
+      }
+  ]
+}
