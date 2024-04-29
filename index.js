@@ -170,6 +170,8 @@ node.append("a")
       })
 
 .on('click', function(d) {
+    const audio = new Audio("./audios/"+d.Nodo+".mp3");
+    audio.play();
           window.open(
             d.pathFichas,
             '_top' // <- This is what makes it open in a new window.
