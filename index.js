@@ -132,7 +132,7 @@ node.append("circle")
 
 
 node.append("image")
-  .attr("xlink:href", function(d) {return d.filenameDestino; })
+  .attr("xlink:href", function(d) {return "imagenes/"+ (d.imagen ? d.imagen : "default.png")})
   .attr("x", -80)
   .attr("y", -80)
   .attr("width", 160)
@@ -142,7 +142,7 @@ node.append("image")
  .attr("clip-path", "url(#clip-circle)");
 
 node.append("a")
-/*    .attr("xlink:href",  function(d) {return d.pathFichas; })*/
+/*    .attr("xlink:href",  function(d) {return d.vinculoInterno; })*/
   .append("rect")  
   .attr("x", -50)
   .attr("y", -50)
@@ -170,10 +170,8 @@ node.append("a")
       })
 
 .on('click', function(d) {
-    const audio = new Audio("./audios/"+d.Nodo+".mp3");
-    audio.play();
           window.open(
-            d.pathFichas,
+            d.vinculoInterno,
             '_top' // <- This is what makes it open in a new window.
           );
         });

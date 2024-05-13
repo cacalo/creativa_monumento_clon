@@ -11,8 +11,9 @@
 
 body {
   background-image: linear-gradient(to top, #a2a2a2, #b8b9b8, #d0d0d0, #e7e7e7, #ffffff);
+  height: 100dvh;
 /*  background: url(../monumento/sistema/sites/all/themes/creative_responsive_theme/images/fondo22.jpg) no-repeat fixed center;*/
-/*  background-size: cover;*/
+ background-size: cover;
 }
 .link {
   stroke: #ccc;
@@ -29,12 +30,16 @@ div.tooltip {
     max-width: 250px;
     height: auto;         
     padding: 8px;       
-    font: 12px sans-serif;    
-/*    background: lightsteelblue;*/
+    font: 12px sans-serif;
     background: #DAD8A3;
     border-style:solid;
     border: 2px;   
     border-color:#CCC; 
     border-radius: 8px;     
     pointer-events: none;   
+}
+
+#video-container{
+  position: fixed;
+  bottom: 0;
 }

@@ -3,79 +3,58 @@
       {
           "Nodo": 0,
           "idNodo": 0,
+          "tipoNodo": "Personalidad Humana",
           "nameNodo": "",
-          "tipoNodo": "Fichas Asociadas",
-          "pathFichas": "",
-          "filenameDestino": "imagenes_creativa\/fichas_asociadas.png",
-          "dimensiones1": 40,
-          "dimensiones2": 60,
-          "color": "#d65db1"
+          "dimensiones1": 60,
+          "dimensiones2": 80,
+          "color": "#d65db1",
+          "imagen": "",
+          "audio": "",
+          "videoYT": "",
+          "vinculoInterno": "",
+          "vinculoExterno": ""
       },
       {
           "Nodo": 1,
           "idNodo": 1,
-          "nameNodo": "",
-          "tipoNodo": "Recursos",
-          "pathFichas": "",
-          "filenameDestino": "imagenes_creativa\/recursos.png",
+          "tipoNodo": "Emociones felices",
+          "nameNodo": "Emociones que se se sienten bien",
           "dimensiones1": 40,
           "dimensiones2": 60,
-          "color": "#64b765"
+          "color": "#64b765",
+          "imagen": "",
+          "audio": "",
+          "videoYT": "",
+          "vinculoInterno": "1.html",
+          "vinculoExterno": ""
       },
       {
           "Nodo": 2,
           "idNodo": 2,
-          "nameNodo": "",
-          "tipoNodo": "Ir a Men\u00fa Principal",
-          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/red\/fichas_creativa.html",
-          "filenameDestino": "imagenes_creativa\/creativa.png",
-          "dimensiones1": 30,
-          "dimensiones2": 35,
-          "color": "#605F63"
+          "tipoNodo": "Emociones tristes",
+          "nameNodo": "Emociones que se se sienten mal",
+          "dimensiones1": 40,
+          "dimensiones2": 60,
+          "color": "#64b765",
+          "imagen": "",
+          "audio": "",
+          "videoYT": "",
+          "vinculoInterno": "2.html",
+          "vinculoExterno": ""
       },
       {
           "Nodo": 3,
           "idNodo": 3,
-          "nameNodo": "",
-          "tipoNodo": "Comentarios",
-          "pathFichas": "https:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/?q=comentarios_desde_nodos\/98",
-          "filenameDestino": "imagenes_creativa\/comentarios.png",
+          "tipoNodo": "Emociones curiosas",
+          "nameNodo": "Emociones que nos llevan a hacer más",
           "dimensiones1": 40,
           "dimensiones2": 60,
-          "color": "#ffc75f"
-      },
-      {
-          "Nodo": 4,
-          "idNodo": "98",
-          "nameNodo": "MiRA: Microscop\u00eda y Realidad Aumentada, la aventura de descubrir  y comprender lo que no se ve",
-          "tipoNodo": "Informaci\u00f3n de la ficha Obra abierta: ",
-          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/sistema\/?q=fichas-vista-panel-central\/98",
-          "filenameDestino": "fichasCreativa\/98\/imagenes\/MiRA 1.jpg",
-          "dimensiones1": 40,
-          "dimensiones2": 60,
-          "color": "#dbd747"
-      },
-      {
-          "Nodo": 5,
-          "idNodo": "97",
-          "nameNodo": "Dispositivo Hipermedial Din\u00e1mico CREATIVA MONUMENTO",
-          "tipoNodo": "Obra abierta: ",
-          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/red\/fichas_individuales_creativa.php?ficha=97",
-          "filenameDestino": "fichasCreativa\/98\/imagenes\/creativa_0_0.jpg",
-          "dimensiones1": 40,
-          "dimensiones2": 45,
-          "color": "#dbd747"
-      },
-      {
-          "Nodo": 6,
-          "idNodo": "91",
-          "nameNodo": "Monumento Hist\u00f3rico Nacional a la Bandera",
-          "tipoNodo": "Obra abierta: ",
-          "pathFichas": "http:\/\/creativamonumento.irice-conicet.gov.ar\/red\/fichas_individuales_creativa.php?ficha=91",
-          "filenameDestino": "fichasCreativa\/98\/imagenes\/monumento_0.jpg",
-          "dimensiones1": 40,
-          "dimensiones2": 45,
-          "color": "#dbd747"
+          "color": "#64b765",
+          "imagen": "",
+          "audio": "",
+          "videoYT": "",
+          "vinculoInterno": "3.html",
+          "vinculoExterno": ""
       }
   ],
   "links": [
@@ -86,10 +65,16 @@
           "color": "#d65db1"
       },
       {
-          "source": 1,
+          "source": 0,
           "target": 2,
           "value": 230,
           "color": "#64b765"
-      }
+      },
+      {
+        "source": 0,
+        "target": 3,
+        "value": 230,
+        "color": "#64b765"
+    }
   ]
 }
