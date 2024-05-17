@@ -2,7 +2,7 @@ const videoElement = document.getElementById("ytplayer");
 const URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTxwVzhXLU_L68mdhBgS1m_iLCLpEC2CVFbbs0mI1LP_22oC_vltxN0R8YsUuQxw6slF2XTYgkLsx1i/pub?gid=0&single=true&output=csv";
 let nodos = [];
 let conexiones = [];
-const URLImagenDefault = "https://cdn.iconscout.com/icon/premium/png-512-thumb/love-feeling-1991782-1682379.png?f=webp&w=512";
+const URLImagenDefault = "./imagenes/default.png";
 
 getGoogleSheetsData().then((res) => {
   [nodos, conexiones] = convertirCSVaNodo(res);
