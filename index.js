@@ -221,7 +221,7 @@ function crearGrafico(){
     })
 
     .on("click", function (d) {
-      const audio = new Audio("./audios/" + d.URLAudio);
+      const audio = new Audio(d.URLAudio);
       //const vinculoInterno = d.vinculoInterno;
       const vinculoExterno = d.vinculoExterno;
       const video = d.IDYoutube;
@@ -229,9 +229,7 @@ function crearGrafico(){
         video,
         "http://www.youtube.com/embed/" + video + "?autoplay=1"
       );
-      if (video)
-        videoElement.src =
-          "http://www.youtube.com/embed/" + video + "?autoplay=1";
+      if (video) videoElement.src ="http://www.youtube.com/embed/" + video + "?autoplay=1";
       else videoElement.src = "";
       if (vinculoExterno) window.open(vinculoExterno, "blank");
       //if(vinculoInterno) window.open(vinculoInterno,'_top');
