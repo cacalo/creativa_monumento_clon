@@ -1,5 +1,5 @@
 const videoElement = document.getElementById("ytplayer");
-const URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTxwVzhXLU_L68mdhBgS1m_iLCLpEC2CVFbbs0mI1LP_22oC_vltxN0R8YsUuQxw6slF2XTYgkLsx1i/pub?gid=0&single=true&output=csv";
+const URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTxwVzhXLU_L68mdhBgS1m_iLCLpEC2CVFbbs0mI1LP_22oC_vltxN0R8YsUuQxw6slF2XTYgkLsx1i/pub?gid=0&single=true&output=tsv";
 let nodos = [];
 let conexiones = [];
 const URLImagenDefault = "./imagenes/default.png";
@@ -16,7 +16,7 @@ function convertirCSVaNodo(stringCSV) {
   const nodos = [];
   const conexiones = [];
   filasCSV.forEach((linea, i) => {
-    const columnasCSV = linea.split(",");
+    const columnasCSV = linea.split('\t'); //Separo por tabulación
     const nuevoNodo = {
       id: i,
       titulo: columnasCSV[0],
@@ -125,7 +125,7 @@ var force = d3.layout
   .size([width, height]);
 
 function crearGrafico(){
-  //console.log("intentado crear gráficos con",nodos,conexiones)
+  console.log("Creando gráficos con","nodos:",nodos,"conexiones",conexiones)
   force.nodes(nodos).links(conexiones).start();
 
   var link = svg
