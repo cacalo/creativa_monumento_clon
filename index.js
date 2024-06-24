@@ -224,7 +224,7 @@ function crearGrafico(){
     .on("click", function (d) {
       const audio = new Audio(d.URLAudio);
       //const vinculoInterno = d.vinculoInterno;
-      const vinculoExterno = d.vinculoExterno;
+      const vinculoExterno = d.URLVinculoExterno;
       const video = d.IDYoutube;
       /*console.log(
         video,
