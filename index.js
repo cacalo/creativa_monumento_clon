@@ -4,10 +4,11 @@ let nodos = [];
 let conexiones = [];
 const URLImagenDefault = "./imagenes/default.png";
 
-getGoogleSheetsData().then((res) => {
-  [nodos, conexiones] = convertirCSVaNodo(res);
+async function main(){
+  const datos = await getGoogleSheetsData();
+  [nodos, conexiones] = convertirCSVaNodo(datos);
   crearGrafico();
-});
+}
 
 function convertirCSVaNodo(stringCSV) {
   const filasCSV = stringCSV.split(/\r\n/g); //Separo por línea
@@ -17,20 +18,20 @@ function convertirCSVaNodo(stringCSV) {
   filasCSV.forEach((linea, i) => {
     const columnasCSV = linea.split(",");
     const nuevoNodo = {
-      id: parseInt(columnasCSV[0]),
-      titulo: columnasCSV[1],
-      descripción: columnasCSV[2],
-      tamaño: columnasCSV[3],
-      color: columnasCSV[4],
-      URLImagen: columnasCSV[5],
-      URLAudio: columnasCSV[6],
-      IDYoutube: columnasCSV[7],
-      URLVinculoExterno: columnasCSV[8],
+      id: i,
+      titulo: columnasCSV[0],
+      descripción: columnasCSV[1],
+      tamaño: columnasCSV[2],
+      color: columnasCSV[3],
+      URLImagen: columnasCSV[4],
+      URLAudio: columnasCSV[5],
+      IDYoutube: columnasCSV[6],
+      URLVinculoExterno: columnasCSV[7],
     };
     nodos.push(nuevoNodo);
-    if (columnasCSV[9]) {
+    if (columnasCSV[8]) {
       const nuevaConexion = {
-        source: parseInt(columnasCSV[9]),
+        source: parseInt(columnasCSV[8])-2,
         target: nuevoNodo.id,
         value: 230,
         color: nuevoNodo.color,
@@ -124,7 +125,7 @@ var force = d3.layout
   .size([width, height]);
 
 function crearGrafico(){
-  console.log("intentado crear gráficos con",nodos,conexiones)
+  //console.log("intentado crear gráficos con",nodos,conexiones)
   force.nodes(nodos).links(conexiones).start();
 
   var link = svg
@@ -225,10 +226,10 @@ function crearGrafico(){
       //const vinculoInterno = d.vinculoInterno;
       const vinculoExterno = d.vinculoExterno;
       const video = d.IDYoutube;
-      console.log(
+      /*console.log(
         video,
         "http://www.youtube.com/embed/" + video + "?autoplay=1"
-      );
+      );*/
       if (video) videoElement.src ="http://www.youtube.com/embed/" + video + "?autoplay=1";
       else videoElement.src = "";
       if (vinculoExterno) window.open(vinculoExterno, "blank");
@@ -310,3 +311,6 @@ function crearGrafico(){
     
   });
 }
+
+//Ejecución
+main();
