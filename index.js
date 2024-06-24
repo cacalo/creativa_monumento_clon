@@ -125,7 +125,8 @@ var force = d3.layout
   .size([width, height]);
 
 function crearGrafico(){
-  console.log("Creando gráficos con","nodos:",nodos,"conexiones",conexiones)
+  console.log("Nodos:",nodos);
+  console.log("conexiones",conexiones);
   force.nodes(nodos).links(conexiones).start();
 
   var link = svg
@@ -231,7 +232,7 @@ function crearGrafico(){
         "http://www.youtube.com/embed/" + video + "?autoplay=1"
       );*/
       if (video) videoElement.src ="http://www.youtube.com/embed/" + video + "?autoplay=1";
-      else videoElement.src = "";
+      else if(videoElement.src) videoElement.src = "";
       if (vinculoExterno) window.open(vinculoExterno, "blank");
       //if(vinculoInterno) window.open(vinculoInterno,'_top');
       if (audio) {
