@@ -3,6 +3,9 @@ const URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTxwVzhXLU_L68mdhBg
 let nodos = [];
 let conexiones = [];
 const URLImagenDefault = "./imagenes/default.png";
+const audio = document.getElementById("audio");
+const audioSource = document.getElementById("audioSource");
+console.log(audioSource)
 
 async function main(){
   const datos = await getGoogleSheetsData();
@@ -223,7 +226,9 @@ function crearGrafico(){
     })
 
     .on("click", function (d) {
-      const audio = new Audio(d.URLAudio);
+      audio.pause();
+      audioSource.src = d.URLAudio;
+      //audio = new Audio(d.URLAudio);
       //const vinculoInterno = d.vinculoInterno;
       const vinculoExterno = d.URLVinculoExterno;
       const video = d.IDYoutube;
@@ -235,8 +240,8 @@ function crearGrafico(){
       else if(videoElement.src) videoElement.src = "";
       if (vinculoExterno) window.open(vinculoExterno, "blank");
       //if(vinculoInterno) window.open(vinculoInterno,'_top');
-      if (audio) {
-        audio.pause();
+      if (d.URLAudio) {
+        audio.load();
         audio.play();
       }
     });
