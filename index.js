@@ -236,7 +236,7 @@ function crearGrafico(){
         video,
         "http://www.youtube.com/embed/" + video + "?autoplay=1"
       );*/
-      if (video) videoElement.src ="http://www.youtube.com/embed/" + video + "?autoplay=1";
+      if (video) videoElement.src ="https://www.youtube.com/embed/" + video + "?autoplay=1";
       else if(videoElement.src) videoElement.src = "";
       if (vinculoExterno) window.open(vinculoExterno, "blank");
       //if(vinculoInterno) window.open(vinculoInterno,'_top');
